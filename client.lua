@@ -261,7 +261,7 @@ RegisterNetEvent('qbr-construction:DropWood', function()
                 exports['qbr-core']:Notify(9, 'Never used a hammer before? Try again!', 5000, 0, 'mp_lobby_textures', 'cross', 'COLOR_RED')
             end
         else
-            exports['qbr-core']:Notify(9, 'You\'ve completed your work, you can collect your paycheck or get another task!', 5000, 0, 'mp_lobby_textures', 'check', 'COLOR_WHITE')
+            exports['qbr-core']:Notify(9, 'You\'ve completed your work, you can collect your paycheck!', 5000, 0, 'mp_lobby_textures', 'check', 'COLOR_WHITE')
         end
     end
 end)
